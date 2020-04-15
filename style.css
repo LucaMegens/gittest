@@ -10,8 +10,57 @@
 body
 {
     background: white;
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: 'Segoe UI', medio;
     overflow-x: hidden;
+}
+
+/* HEADER */
+.navigation
+{
+    overflow: hidden;
+    margin: 10px 0px 10px 0px;
+    list-style-type: none;
+    position: fixed;
+    top: -50px;
+    text-align: left;
+    left: 0px;
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    z-index: 99;
+    transition: 0.3s;
+    padding: 32px 0px;
+}
+
+li
+{
+    display: inline-block;
+    padding: 5px;
+    padding-top: 3vh;
+    margin: 0px 30px;
+    margin-left: 3vw;
+}
+a{
+    color: #707070;
+    text-decoration: none;
+}
+
+/* LANDING PAGE*/
+
+.LandingPage
+{
+    background-image: url(Fotos/Luca\ Waterfall.png); 
+    background-size: 100%;
+    padding: 55vw; 
+    background-repeat: no-repeat; 
+}
+
+.MyJourney
+{
+    float: left;
+    position: relative;
+    top: 40%;
+    right: 23%;
+    font-size: 25px;
 }
 
