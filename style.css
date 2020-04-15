@@ -23,7 +23,7 @@ body
     list-style-type: none;
     position: fixed;
     top: -50px;
-    text-align: left;
+    text-align: center;
     left: 0px;
     background-color: rgb(255, 255, 255);
     width: 100vw;
@@ -40,7 +40,9 @@ li
     margin: 0px 30px;
     margin-left: 3vw;
 }
-a{
+
+a
+ {
     color: #707070;
     text-decoration: none;
 }
@@ -50,17 +52,21 @@ a{
 .LandingPage
 {
     background-image: url(Fotos/Luca\ Waterfall.png); 
-    background-size: 100%;
-    padding: 55vw; 
+    background-size: 115%;
+    padding: 50vh; 
     background-repeat: no-repeat; 
 }
 
 .MyJourney
 {
-    float: left;
-    position: relative;
-    top: 40%;
-    right: 23%;
-    font-size: 25px;
+    display: flex;
+    flex: wrap;
+    color: #BFC9CD;
+    text-shadow: 5px 3px 6px black;
+    font-size: 7vw;
+    font-family: medio;
+    justify-content: center;
+    margin-top: -90vh;
+    margin-bottom: 76vh;
 }
 
