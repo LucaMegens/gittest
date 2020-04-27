@@ -70,3 +70,49 @@ a
     margin-bottom: 76vh;
 }
 
+/* My Story*/
+
+.MyStory
+{
+    display: flex;
+    flex: wrap;
+    color: #BFC9CD;
+    text-shadow: 0.25vw 0.15vw 0.3vw black;
+    font-size: 5vw;
+    font-family: medio;
+    justify-content: center;
+    padding-top: 6vh;
+}
+.WBI
+{
+    background-color: #D8E9EF;
+    background-image: url(Fotos/Gezin\ Seqoia\ trees.png);
+    background-size: 18vw;
+    background-repeat: no-repeat;
+    padding-top:5vh;
+    padding-left: 5vw;
+    padding-bottom:30vh ;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+
+.WieBenIk
+{
+    font-size: 1.5vw;
+    font-weight: normal;
+    color: #707070;
+    display: flex;
+    flex: wrap;
+    justify-content: left;
+    padding-left:14vw ;
+    margin-top: -4vh;
+}
+
+.WBIPar
+{
+    font-weight: normal;
+    color: #707070;
+    padding-left: 14vw;
+    margin-top: 1vw;
+}
