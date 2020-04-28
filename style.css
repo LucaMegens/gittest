@@ -1,6 +1,7 @@
 * {
     padding: 0px;
     margin: 0px;
+    
 }
 @font-face{
     font-family: medio;
@@ -29,15 +30,15 @@ body
     width: 100vw;
     z-index: 99;
     transition: 0.3s;
-    padding: 32px 0px;
+    padding: 3.3vh 0vh;
 }
 
 li
 {
     display: inline-block;
-    padding: 5px;
+    padding: 1vh;
     padding-top: 3vh;
-    margin: 0px 30px;
+    margin: 0vh 0vh;
     margin-left: 3vw;
 }
 
@@ -45,6 +46,11 @@ a
  {
     color: #707070;
     text-decoration: none;
+    font-size: 1.6vh;
+}
+a:hover
+{
+    opacity: 0.3;
 }
 
 /* LANDING PAGE*/
@@ -62,7 +68,7 @@ a
     display: flex;
     flex: wrap;
     color: #BFC9CD;
-    text-shadow: 5px 3px 6px black;
+    text-shadow:  0.25vw 0.15vw 0.3vw black;
     font-size: 7vw;
     font-family: medio;
     justify-content: center;
@@ -72,7 +78,7 @@ a
 
 /* My Story*/
 
-.MyStory
+.titels
 {
     display: flex;
     flex: wrap;
@@ -87,11 +93,10 @@ a
 {
     background-color: #D8E9EF;
     background-image: url(Fotos/Gezin\ Seqoia\ trees.png);
-    background-size: 18vw;
+    background-size: 19.6vw;
     background-repeat: no-repeat;
-    padding-top:5vh;
-    padding-left: 5vw;
-    padding-bottom:30vh ;
+    padding-left: 7vw;
+    padding-bottom:8.7vh ;
     margin-left: 10vw;
     margin-right: 10vw;
 }
@@ -105,14 +110,25 @@ a
     display: flex;
     flex: wrap;
     justify-content: left;
-    padding-left:14vw ;
-    margin-top: -4vh;
+    padding-left: 14vw;
+    padding-top: 2vh;
+    margin-top: 5vh;
 }
 
-.WBIPar
+.WBIPar1
 {
     font-weight: normal;
     color: #707070;
-    padding-left: 14vw;
+    padding-left: 16vw;
     margin-top: 1vw;
+    font-size: 0.9vw;
+}
+
+.WBIPar2
+{
+    font-weight: normal;
+    color: #707070;
+    padding-left: 16vw;
+    margin-top: 1vw;
+    font-size: 0.9vw;
 }
