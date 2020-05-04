@@ -1,12 +1,11 @@
 var i = 0;
 var images = [];
-var time = 1000;
+var time = 5000;
 
 //image list
-images[0] = 'Fotos\Luca Waterfall.png';
-images[1] = 'Fotos\GlenCanyon.png';
-images[2] = 'Fotos\Kano.png';
-images[3] = 'image4.jpg';
+images[0] = 'Fotos/Luca Waterfall.png';
+images[1] = 'Fotos/GlenCanyon.png';
+images[2] = 'Fotos/Kano.png';
 
 //change image
 

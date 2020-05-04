@@ -57,10 +57,9 @@ a:hover
 
 .LandingPage
 {
-   background-image: url(Fotos/Luca\ Waterfall.png); 
-    background-size: 115%;
-    padding: 50vh; 
-    background-repeat: no-repeat; 
+    width: 100vw;
+    height: 100vh;
+    object-fit: scale-down;
 }
 
 .MyJourney
