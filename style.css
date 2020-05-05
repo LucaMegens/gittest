@@ -59,7 +59,7 @@ a:hover
 {
     width: 100vw;
     height: 100vh;
-    object-fit: scale-down;
+    object-fit: cover;
 }
 
 .MyJourney
