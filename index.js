@@ -1,32 +1,32 @@
-var i = 0;
-var images = [];
-var time = 10000;
+// Pakt alle plaatjes in de 'slide' div en maakt er een array van de img objecten.
+var slide = document.getElementById("Slideshow");
+var arr = Array.prototype.slice.call(slide.children);
 
-//image list
-images[0] = 'Fotos/Luca Waterfall.png';
-images[1] = 'Fotos/Yosemite LucaS2-03.jpg';
-images[2] = 'Fotos/Yosemite LucaS2-04.jpg';
-images[3] = 'Fotos/Yosemite LucaS2-05.jpg';
-images[4] = 'Fotos/Yosemite LucaS2-06.jpg';
-images[5] = 'Fotos/Yosemite LucaS2-07.jpg';
-
-//change image
-
-function changeImg(){
-    document.slide.src = images[i];
-
-    if (i < images.length - 1) 
-    {
-        i++;  
-    } 
-
-      else
-    {
-        i = 0;
-    }
-
-setTimeout("changeImg()" , time);
-
+//zorgt ervoor dat css de array kan beinvloeden
+arr.map(function(imageObj)
+{
+  imageObj.classList.add("Slideshow-img");
 }
+);
 
-window.onload = changeImg;
+//Laat de eerste slide zien
+arr[0].classList.add("show");
+
+//Zet de waardes voor de timing van de slideshow
+var currentSlide = 1;
+var slideLength = slide.children.length;
+var prevSlide = 0;
+
+//interval function
+setInterval(function() 
+{
+  if (currentSlide >= slideLength)
+    currentSlide = 0;
+
+  arr[prevSlide].classList.remove("show");
+  arr[currentSlide].classList.add("show");
+
+  prevSlide = currentSlide;
+  currentSlide++;
+
+}, 5000)

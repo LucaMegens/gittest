@@ -55,15 +55,31 @@ a:hover
 
 /* LANDING PAGE*/
 
-.LandingPage
+.Slideshow img 
 {
+    position: absolute;
+}
+
+
+.Slideshow-img
+{
+    opacity: 0;
+    transition: opacity 2s;
+    object-fit: cover;
     width: 100vw;
     height: 100vh;
-    object-fit: cover;
 }
+
+.show 
+{
+    opacity: 1;
+}
+
 
 .MyJourney
 {
+    position: relative;
+    top: 10vh;
     display: flex;
     flex: wrap;
     color: #BFC9CD;
@@ -71,14 +87,14 @@ a:hover
     font-size: 7vw;
     font-family: medio;
     justify-content: center;
-    margin-top: -90vh;
-    margin-bottom: 76vh;
 }
 
 /* My Story*/
 
 .titels
 {
+    position: relative;
+    top: 80vh;
     display: flex;
     flex: wrap;
     color: #BFC9CD;
@@ -87,9 +103,12 @@ a:hover
     font-family: medio;
     justify-content: center;
     padding-top: 6vh;
+    
 }
 .WBI
 {
+    position: relative;
+    top: 80vh;
     background-color: #D8E9EF;
     background-image: url(Fotos/Gezin\ Seqoia\ trees.png);
     background-size: 19.6vw;
