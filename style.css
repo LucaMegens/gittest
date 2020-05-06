@@ -4,15 +4,19 @@
     
 }
 @font-face{
-    font-family: medio;
-    src: url(font/Medio.otf);
+    font-family: 'monument_valley_1.2regular';
+    src: url('monumentvalley12-x55o-webfont.woff2') format('woff2'),
+         url('monumentvalley12-x55o-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 body
 {
     background: white;
     color: rgb(0, 0, 0);
-    font-family: 'Segoe UI', medio;
+    font-family: 'Segoe UI', 'monument_valley_1.2regular';
     overflow-x: hidden;
 }
 
@@ -64,7 +68,7 @@ a:hover
 .Slideshow-img
 {
     opacity: 0;
-    transition: opacity 2s;
+    transition: ease-in-out  2s;
     object-fit: cover;
     width: 100vw;
     height: 100vh;
@@ -83,9 +87,10 @@ a:hover
     display: flex;
     flex: wrap;
     color: #BFC9CD;
-    text-shadow:  0.25vw 0.15vw 0.3vw black;
+    text-shadow:  0vw 0vw 1vw  black;
     font-size: 7vw;
-    font-family: medio;
+    font-family: monument_valley_1.2regular;
+    font-weight: lighter;
     justify-content: center;
 }
 
@@ -98,9 +103,9 @@ a:hover
     display: flex;
     flex: wrap;
     color: #BFC9CD;
-    text-shadow: 0.25vw 0.15vw 0.3vw black;
     font-size: 5vw;
-    font-family: medio;
+    font-family: monument_valley_1.2regular;
+    font-weight: lighter;
     justify-content: center;
     padding-top: 6vh;
     

@@ -1,5 +1,5 @@
 // Pakt alle plaatjes in de 'slide' div en maakt er een array van de img objecten.
-var slide = document.getElementById("Slideshow");
+var slide = document.getElementById("LandingPage");
 var arr = Array.prototype.slice.call(slide.children);
 
 //zorgt ervoor dat css de array kan beinvloeden
@@ -29,4 +29,4 @@ setInterval(function()
   prevSlide = currentSlide;
   currentSlide++;
 
-}, 5000)
+}, 10000)
