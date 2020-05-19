@@ -32,14 +32,19 @@ html
     margin: 10px 0px 10px 0px;
     list-style-type: none;
     position: fixed;
-    top: -50px;
+    top: -5vh;
     text-align: center;
     left: 0px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(245, 245, 245);
     width: 100vw;
     z-index: 99;
     transition: 0.3s;
-    padding: 3.3vh 0vh;
+    padding: 2vh 0vh;
+    
+}
+.AA
+{
+    padding-top: 4vh;
 }
 
 li
@@ -88,7 +93,7 @@ a:hover
 .MyJourney
 {
     position: relative;
-    top: 6.6vh;
+    top: 5vh;
     display: flex;
     flex: wrap;
     color: #BFC9CD;
@@ -113,7 +118,7 @@ a:hover
     font-family: monument_valley_1.2regular;
     font-weight: lighter;
     justify-content: center;
-    padding-top: 6vh;
+    margin-top: 6vh;
     
 }
 .WBI
@@ -133,7 +138,7 @@ a:hover
 
 .WieBenIk
 {
-    font-size: 1.5vw;
+    font-size: 2vh;
     font-weight: normal;
     color: #707070;
     display: flex;
@@ -150,7 +155,7 @@ a:hover
     color: #707070;
     padding-left: 16vw;
     margin-top: 1vw;
-    font-size: 0.9vw;
+    font-size: 1,5vh;
 }
 
 /*DESIGN*/
@@ -162,9 +167,17 @@ a:hover
     position: relative;
     margin: auto;
     top: 81vh;
-    max-height: 95vh;
     background-color: rgba(0, 0, 0, 0.055);
     height: 74.2vh;
+}
+.T-shirt
+{
+    color: #707070;
+    font-size: 3vh;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top:-0.5vh ;
 }
 
 /* Hide the images by default*/
@@ -207,7 +220,7 @@ a:hover
 .text
 {
     color: #707070;
-    font-size: 1.8vh;
+    font-size: 1.5vh;
     position: absolute;
     width: 100%;
     text-align: left;
@@ -255,17 +268,97 @@ a:hover
     transition: opacity 2s;
 }
 
-.Design1
-{
-    position: relative;
-    left: 38vh;
-    margin-bottom: 9.1vh;
-    top: 8vh;
-
-}
-
 .DotBar
 {
     position: relative;
     text-align: center;
+    margin: 0;
+}
+/*------------------------------------------*/
+.slideshow-container2
+{
+    position: relative;
+    
+    top: 20vh;
+    background-color: rgba(0, 0, 0, 0.055);
+    height: 74.2vh;
+    margin-bottom: -60vh;
+}
+.Drumvel
+{
+    color: #707070;
+    font-size: 3vh;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top:-0.5vh ;
+}
+/* Hide the images by default*/
+.mySlides2
+{
+    display: none;
+}
+
+/* Next and previous buttons */
+.prev2, .next2
+{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -4.5vh;
+    padding: 4vh;
+    color: darkgray;
+    font-weight: regular;
+    font-size: 2.8vh;
+    transition: 0.6s ease;
+    border-radius: 0 1vh 1vh 0;
+    user-select: none;
+}
+
+/* Position the "Next button" to the right*/
+.next2
+{
+    right: 0;
+    border-radius: 1vh 0 0 1vh;
+}
+
+/* On hover, add a black background color with a little but see-through */
+.prev2:hover, .next2:hover
+{
+    background-color: rgba(255, 255, 255, 0.733);
+}
+
+/* the dots/circles */
+.dot2
+{
+    position: relative;
+    cursor: pointer;
+    height: 2vh;
+    width: 2vh;
+    top: 15vh;
+    margin-left: 1.4vh;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-flex;
+    transition: background-color 0.3s ease;
+}
+
+.active, .dot2:hover
+{
+    background-color: #717171;
+}
+
+/* fading animation */
+.fade2
+{
+
+    transition: opacity 2s;
+}
+
+.DotBar2
+{
+    position: relative;
+    text-align: center;
+    margin: 0;
 }
