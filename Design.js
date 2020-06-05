@@ -26,6 +26,7 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+//----------------------------------------------------------
 
 // Slideshow2
 var slideIndex2 = 1;
@@ -55,4 +56,35 @@ function showSlides2(n2) {
   }
   slides2[slideIndex2-1].style.display = "block";
   dots2[slideIndex2-1].className += " active";
+}
+//----------------------------------------------------------------------------------------------------
+
+// Slideshow3
+var slideIndex3 = 1;
+showSlides3(slideIndex3);
+
+// Next/previous controls
+function plusSlides3(n3) {
+  showSlides3(slideIndex3 += n3);
+}
+
+// Thumbnail image controls
+function currentSlide3(n3) {
+  showSlides3(slideIndex3 = n3);
+}
+
+function showSlides3(n3) {
+  var i;
+  var slides3 = document.getElementsByClassName("mySlides3");
+  var dots3 = document.getElementsByClassName("dot3");
+  if (n3 > slides3.length) {slideIndex3 = 1}
+  if (n3 < 1) {slideIndex3 = slides3.length}
+  for (i = 0; i < slides3.length; i++) {
+      slides3[i].style.display = "none";
+  }
+  for (i = 0; i < dots3.length; i++) {
+      dots3[i].className = dots3[i].className.replace(" active", "");
+  }
+  slides3[slideIndex3-1].style.display = "block";
+  dots3[slideIndex3-1].className += " active";
 }

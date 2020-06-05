@@ -25,7 +25,7 @@ html
     scroll-behavior: smooth;
 }
 
-/* HEADER */
+/*------------- HEADER -------------*/
 .navigation
 {
     overflow: hidden;
@@ -67,7 +67,7 @@ a:hover
     opacity: 0.3;
 }
 
-/* LANDING PAGE*/
+/*------------------------ LANDING PAGE -------------------*/
 
 .Slideshow img 
 {
@@ -102,10 +102,21 @@ a:hover
     font-weight: lighter;
     justify-content: center;
     backdrop-filter: brightness(60%);
-    padding-bottom: 4vh;
-    
+    padding-bottom: 5.5vh;   
 }
-/* My Story*/
+
+.MyJourneyLower
+{
+    position: relative;
+    display: flex;
+    flex: wrap;
+    color: #BFC9CD;
+    font-size: 1.4vw;
+    font-family: monument_valley_1.2regular;
+    font-weight: lighter;
+    justify-content: center;
+}
+/*-------------------- MY STORY -----------------------*/
 
 .titels
 {
@@ -119,6 +130,7 @@ a:hover
     font-weight: lighter;
     justify-content: center;
     margin-top: 6vh;
+    padding-top: 5vh;
     
 }
 .WBI
@@ -158,8 +170,8 @@ a:hover
     font-size: 1,5vh;
 }
 
-/*DESIGN*/
-
+/*-------------------- DESIGN ----------------------*/
+/*------------------- T-SHIRT -------------------*/
 /* Slideshow container*/
 .slideshow-container
 {
@@ -274,11 +286,10 @@ a:hover
     text-align: center;
     margin: 0;
 }
-/*------------------------------------------*/
+/*--------------- DRUMVEL ---------------------------*/
 .slideshow-container2
 {
     position: relative;
-    
     top: 20vh;
     background-color: rgba(0, 0, 0, 0.055);
     height: 74.2vh;
@@ -357,6 +368,187 @@ a:hover
 }
 
 .DotBar2
+{
+    position: relative;
+    text-align: center;
+    margin: 0;
+}
+
+/*------------------ DRUMSTOK ---------------------------------*/
+.slideshow-container3
+{
+    position: relative;
+    top: 90vh;
+    background-color: rgba(0, 0, 0, 0.055);
+    height: 74.2vh;
+    margin-bottom: 20vh;
+}
+
+.Drumstok
+{
+    color: #707070;
+    font-size: 3vh;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top:-0.5vh ;
+}
+/* Hide the images by default*/
+.mySlides3
+{
+    display: none;
+}
+
+/* Next and previous buttons */
+.prev3, .next3
+{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -4.5vh;
+    padding: 4vh;
+    color: darkgray;
+    font-weight: regular;
+    font-size: 2.8vh;
+    transition: 0.6s ease;
+    border-radius: 0 1vh 1vh 0;
+    user-select: none;
+}
+
+/* Position the "Next button" to the right*/
+.next3
+{
+    right: 0;
+    border-radius: 1vh 0 0 1vh;
+}
+
+/* On hover, add a black background color with a little but see-through */
+.prev3:hover, .next3:hover
+{
+    background-color: rgba(255, 255, 255, 0.733);
+}
+
+/* the dots/circles */
+.dot3
+{
+    position: relative;
+    cursor: pointer;
+    height: 2vh;
+    width: 2vh;
+    top: 15vh;
+    margin-left: 1.4vh;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-flex;
+    transition: background-color 0.3s ease;
+}
+
+.active, .dot3:hover
+{
+    background-color: #717171;
+}
+
+/* fading animation */
+.fade3
+{
+
+    transition: opacity 2s;
+}
+
+.DotBar3
+{
+    position: relative;
+    text-align: center;
+    margin: 0;
+}
+
+
+
+/*--------------- INTERACTIVE MEDIA --------------------*/
+/*--------------- USER INTERFACE -----------------------*/
+.InteractiveMedia-container
+{
+    max-width: 65vw;
+    position: relative;
+    margin: auto;
+    top: 81vh;
+    background-color: rgba(0, 0, 0, 0.055);
+    height: 74.2vh;
+}
+.UIiteraties
+{
+    color: #707070;
+    font-size: 3vh;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top:-0.5vh ;
+}
+/* Hide the images by default*/
+.mySlides2
+{
+    display: none;
+}
+
+/* Next and previous buttons */
+.IMprev, .IMnext
+{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -4.5vh;
+    padding: 4vh;
+    color: darkgray;
+    font-weight: regular;
+    font-size: 2.8vh;
+    transition: 0.6s ease;
+    border-radius: 0 1vh 1vh 0;
+    user-select: none;
+}
+
+/* Position the "Next button" to the right*/
+.IMnext
+{
+    right: 0;
+    border-radius: 1vh 0 0 1vh;
+}
+
+/* On hover, add a black background color with a little but see-through */
+.IMprev:hover, .IMnext:hover
+{
+    background-color: rgba(255, 255, 255, 0.733);
+}
+
+/* the dots/circles */
+.IMdot
+{
+    position: relative;
+    cursor: pointer;
+    height: 2vh;
+    width: 2vh;
+    top: 15vh;
+    margin-left: 1.4vh;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-flex;
+    transition: background-color 0.3s ease;
+}
+
+.IMactive, .IMdot:hover
+{
+    background-color: #717171;
+}
+
+/* fading animation */
+.fade2
+{
+
+    transition: opacity 2s;
+}
+
+.IMDotBar
 {
     position: relative;
     text-align: center;
