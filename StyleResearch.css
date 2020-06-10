@@ -1,0 +1,91 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    
+}
+@font-face{
+    font-family: 'monument_valley_1.2regular';
+    src: url('monumentvalley12-x55o-webfont.woff2') format('woff2'),
+         url('monumentvalley12-x55o-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
+{
+    background: white;
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', 'monument_valley_1.2regular';
+    overflow-x: hidden;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+.navigation
+{
+    overflow: hidden;
+    margin: 10px 0px 10px 0px;
+    list-style-type: none;
+    position: fixed;
+    top: -5vh;
+    text-align: center;
+    left: 0px;
+    background-color: rgb(245, 245, 245);
+    width: 100vw;
+    z-index: 99;
+    transition: 0.3s;
+    padding: 2vh 0vh;
+    
+}
+.AA
+{
+    padding-top: 4vh;
+}
+
+li
+{
+    display: inline-block;
+    padding: 1vh;
+    padding-top: 3vh;
+    margin: 0vh 0vh;
+    margin-left: 3vw;
+}
+
+a
+ {
+    color: #707070;
+    text-decoration: none;
+    font-size: 1.6vh;
+}
+a:hover
+{
+    opacity: 0.3;
+}
+
+.titels
+{
+    position: relative;
+    display: flex;
+    flex: wrap;
+    color: #BFC9CD;
+    font-size: 5vw;
+    font-family: monument_valley_1.2regular;
+    font-weight: lighter;
+    justify-content: center;
+    margin-top: 6vh;
+    padding-top: 5vh;
+    
+}
+
+.IFRAME
+{
+    position: relative;
+    left: 28vw;
+    height: 80vh;
+    width: 90vh;
+    border: none;
+}
