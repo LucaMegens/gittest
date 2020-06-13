@@ -29,4 +29,4 @@ setInterval(function()
   prevslide = currentslide;
   currentslide++;
 
-}, 3000)
+}, 10000)
