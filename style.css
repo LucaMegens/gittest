@@ -114,6 +114,7 @@ a:hover
     font-size: 5vw;
     font-weight: lighter;
     justify-content: center;
+    text-align: center;
     padding-top: 4%;
     
 }
@@ -150,7 +151,7 @@ a:hover
 {
     font-weight: normal;
     color: #707070;
-    padding-left: 16vw;
+    padding-left: 14vw;
     margin-top: 1vw;
     font-size: 1.5vh;
 }
@@ -244,6 +245,23 @@ a:hover
     position: relative;
     text-align: center;
     margin: 1vh;
+}
+
+/*--------------------DEVELOPMENT-----------------*/
+.POC
+{
+    position: relative;
+    top: 80vh;
+    display: flex;
+    flex: wrap;
+    color: #707070;
+    background-color: #D8E9EF;
+    font-size: 2vw;
+    font-weight: lighter;
+    justify-content: left;
+    left: 25%;
+    padding: 2vh;
+    width: 50vw;
 }
 
 /*-------------------- DESIGN ----------------------*/
@@ -546,10 +564,17 @@ a:hover
 .ResearchLink
 {
     position: relative;
-    text-align: center;
-    left: 35%;
-    top: 81vh;
-    font-size: xx-large;
+    top: 80vh;
+    display: flex;
+    flex: wrap;
+    color: #707070;
+    background-color: #D8E9EF;
+    font-size: 2vw;
+    font-weight: lighter;
+    justify-content: left;
+    left: 33%;
+    padding: 2vh;
+    width: 22vw;
 }
 
 
@@ -571,8 +596,7 @@ a:hover
     width: 70vw;
 }
 
-
-.CUT
+.CUT 
 {
     position: relative;
     font-size: 2vh;
@@ -586,20 +610,48 @@ a:hover
     margin-top: 5vh;
 }
 
-.CUTG
-{   
+.CUP1
+{
+    font-weight: normal;
+    color: #707070;
+    position: relative;
+    margin-left: 15vw;
+    margin-top: 0.5vw;
+    font-size: 1.5vh;
+}
+
+/*-----------------------------------------PROFESSIONAL IDENTITY--------------------------*/
+
+.ProfUitleg
+{
+    position: relative;
+    top: 80vh;
+    background-image: url();
+    background-size: 23%;
+    background-color: #D8E9EF;
+    background-repeat: no-repeat;
+    padding-left: 7%;
+    padding-bottom: 11%;
+    padding-right: 1%;
+    margin-right: 10%;
+    width: 70vw;
+}
+
+.PIT 
+{
+    position: relative;
     font-size: 2vh;
     font-weight: normal;
     color: #707070;
     display: flex;
     flex: wrap;
-    position: relative;
-    margin-left: 15vw;
     justify-content: left;
-    margin-top: 3vh;
+    margin-left: 15vw;
+    padding-top: 2vh;
+    margin-top: 5vh;
 }
 
-.CUP1
+.PIC1
 {
     font-weight: normal;
     color: #707070;

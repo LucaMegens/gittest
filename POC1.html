@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="POCStyle.css">
+</head>
+<body>
+    <header>   
+        <nav class="navigation" id="navigation">
+            <ul>   
+                <li class="AA"><a href="index.html#Development">Home</a></li>
+                <li class="AA"><a href="#POC1">PoC1: Knopje</a></li>
+                <li class="AA"><a href="#POC2">PoC2: Slideshow</a></li>
+                <li class="AA"><a href="#POC3">PoC3: Slideshow + transition</a></li>
+                <li class="AA"><a href="#POC4">PoC4: Interactieve slideshow</a></li> 
+                <li class="AA"><a href="#POC5">PoC5: Meerdere interactieve slideshows</a></li>
+                <li class="AA"><a href="#POC6">PoC6: Loader</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="titels" id="POC1">PoC1: Knopje</div>
+
+        <div class="POC1">
+         <button type="button" onclick="myFunction()">Show Picture </button>
+          <img class="Plaatjes" id="Plaatjes" src="POC/POC1/POC1IMG.png" width="40%" alt="">
+    
+         <style>
+
+            .Plaatjes{
+                opacity: 0;
+            }
+    
+           </style>
+
+          <script src="index.js"></script>
+    </div>
+
+    <div class="WHIG PoC1">
+        <p class="p1">Wat heb ik geleerd?</p>
+        <p class="p2">Ik heb geleerd hoe je een stukje css kan veranderen in JavaScript dat reageert door een druk op een knop.</p>
+    </div>
+
+
+    <div class="titels" id="POC2">PoC2: Slideshow</div>
+
+    <div class="POC2">
+         <img class="slide" name="slide">
+            <style>
+                .slide
+                {   
+                    
+                    position: relative; 
+                    left: 40%;
+                    height: 40vh;
+                }
+                    
+            </style>
+    
+         <script src="index2.js"></script>
+    </div>
+
+    <div class="WHIG PoC2">
+        <p class="p1">Wat heb ik geleerd?</p>
+        <p class="p2">Ik heb geleerd om variabele aan te maken, hoe je een lege array maakt en hoe je een if else statement kan gebruiken in JavaScript.</p>
+    </div>
+
+    <div class="titels" id="POC3">PoC3: Slideshow + transition</div>
+
+   
+
+        <div id="Slideshow">  
+
+            <img src="POC/POC3/Luca Waterfall.png">
+            <img src="POC/POC3/Yosemite LucaS2-03.jpg">
+            <img src="POC/POC3/Yosemite LucaS2-04.jpg">
+            <img src="POC/POC3/Yosemite LucaS2-05.jpg">
+            <img src="POC/POC3/Yosemite LucaS2-06.jpg">
+            <img src="POC/POC3/Yosemite LucaS2-07.jpg">
+    
+        </div>
+        <script src="index3.js"></script>
+
+        <div class="WHIG PoC3">
+            <p class="p1">Wat heb ik geleerd?</p>
+            <p class="p2">Ik heb geleerd om vanuit JavaScript de children van een div element te pakken en om te zetten naar een array</p>
+        </div>
+
+
+
+
+
+
+
+    <div class="titels" id="POC4">PoC4: Interactieve slideshow</div>
+    <div class="titels" id="POC5">PoC5: Meerdere interactieve slideshows</div>
+    <div class="titels" id="POC6">PoC6: Loader</div>
+
+</body>
+</html>

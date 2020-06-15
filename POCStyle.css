@@ -1,0 +1,120 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+body
+{
+    background: white;
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI';
+    overflow-x: hidden;
+}
+
+html
+{
+    scroll-behavior: smooth;
+}
+
+/*------------- HEADER -------------*/
+.navigation
+{
+    overflow: hidden;
+    margin: 1% 0% 1% 0%;
+    list-style-type: none;
+    position: fixed;
+    top: -5.5%;
+    text-align: center;
+    left: 0%;
+    background-color: rgb(245, 245, 245);
+    width: 100%;
+    z-index: 99;
+    transition: 0.3s;
+    padding: 1% 0%;
+    
+}
+.AA
+{
+    display: inline-block;
+    padding: 0.7%;
+    padding-top: 2.5%;
+    margin: 0% 0%;
+    margin-left: 1%;
+}
+
+
+a
+ {
+    color: #707070;
+    text-decoration: none;
+    font-size: 1.6vh;
+}
+a:hover
+{
+    opacity: 0.3;
+}
+
+.titels
+{
+    position: relative;
+    display: flex;
+    flex: wrap;
+    color: #BFC9CD;
+    font-size: 5vw;
+    font-weight: lighter;
+    justify-content: center;
+    text-align: center;
+    padding-top: 4%;
+    margin: 6%;
+}
+
+.POC1
+{
+    position: relative;
+    justify-content: center;
+    left: 40%;
+}
+
+.WHIG 
+{
+    position: relative;
+    background-color: #D8E9EF;
+    width: 45%;
+    left: 30%;
+    color: #707070;
+    padding: 1%;
+    margin: 2%;
+}
+
+.p1
+{
+    font-size: 2.5vh; 
+}
+
+#Slideshow img 
+{
+    position: relative;
+    margin: -8vw;
+    left: 50%;
+}
+
+
+.Slideshow-img
+{
+    opacity: 0;
+    transition: opacity 2s;
+    height: 20vh;
+    object-fit: cover;
+}
+  
+.show 
+{
+    opacity: 1;
+}
+
+.PoC3
+{
+    position: relative;
+    top: 20vh;
+}
