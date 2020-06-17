@@ -123,8 +123,8 @@ a:hover
     position: relative;
     top: 80vh;
     background-color: #D8E9EF;
-    background-image: url(Fotos-MyStory/Gezin\ Seqoia\ trees.png);
-    background-size: 23%;
+    background-image: url(Fotos-MyStory/LucaSurf.jpg);
+    background-size: 24.5%;
     background-repeat: no-repeat;
     padding-left: 7%;
     padding-bottom: 11%;
@@ -585,12 +585,12 @@ a:hover
 {
     position: relative;
     top: 80vh;
-    background-image: url(Fotos-Communication/FHICT\ S2\ communication\ screenshot.png);
-    background-size: 23%;
+    background-image: url(Fotos-Communication/Communication\ graphic\ 1.png);
+    background-size: 20%;
     background-color: #D8E9EF;
     background-repeat: no-repeat;
     padding-left: 7%;
-    padding-bottom: 11%;
+    padding-bottom: 5%;
     padding-right: 1%;
     margin-right: 10%;
     width: 70vw;
@@ -626,15 +626,12 @@ a:hover
 {
     position: relative;
     top: 80vh;
-    background-image: url();
-    background-size: 23%;
     background-color: #D8E9EF;
-    background-repeat: no-repeat;
-    padding-left: 7%;
-    padding-bottom: 11%;
+    padding-bottom: 5%;
     padding-right: 1%;
-    margin-right: 10%;
-    width: 70vw;
+    width: 70%;
+    justify-content: center;
+    left: 15%;
 }
 
 .PIT 
@@ -646,8 +643,8 @@ a:hover
     display: flex;
     flex: wrap;
     justify-content: left;
-    margin-left: 15vw;
     padding-top: 2vh;
+    padding-left: 2%;
     margin-top: 5vh;
 }
 
@@ -656,7 +653,7 @@ a:hover
     font-weight: normal;
     color: #707070;
     position: relative;
-    margin-left: 15vw;
     margin-top: 0.5vw;
+    padding-left: 2%;
     font-size: 1.5vh;
 }
