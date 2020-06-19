@@ -3,14 +3,6 @@
     margin: 0px;
     
 }
-@font-face{
-    font-family: 'monument_valley_1.2regular';
-    src: url('monumentvalley12-x55o-webfont.woff2') format('woff2'),
-         url('monumentvalley12-x55o-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
 
 body
 {
@@ -73,12 +65,21 @@ a:hover
     flex: wrap;
     color: #BFC9CD;
     font-size: 5vw;
-    font-family: monument_valley_1.2regular;
     font-weight: lighter;
     justify-content: center;
     margin-top: 6vh;
     padding-top: 5vh;
     
+}
+.lowerTitels
+{
+    position: relative;
+    display: flex;
+    flex: wrap;
+    color: #BFC9CD;
+    font-size: 2vw;
+    font-weight: lighter;
+    justify-content: center;
 }
 
 .IFRAME
