@@ -4,11 +4,14 @@
     
 }
 
+
+    
+
 body
 {
     background: white;
     color: rgb(0, 0, 0);
-    font-family: 'Segoe UI';
+    font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif; 
     overflow-x: hidden;
 }
 
@@ -330,7 +333,7 @@ a:hover
     transition: opacity 2s;
 }
 
-.IMDotBar1
+.IMDotbar1
 {
     position: relative;
     text-align: center;
