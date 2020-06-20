@@ -2,10 +2,7 @@
     padding: 0px;
     margin: 0px;
     
-}
-
-
-    
+}    
 
 body
 {
@@ -176,7 +173,7 @@ a:hover
 {
     color: #707070;
     font-size: 3vh;
-    position: absolute;
+    position: relative;
     width: 100%;
     text-align: center;
     top:-0.5vh ;
@@ -224,7 +221,6 @@ a:hover
     cursor: pointer;
     height: 20px;
     width: 20px;
-    top: 20vh;
     margin-left: 1vw;
     background-color: #bbb;
     border-radius: 50%;
@@ -248,6 +244,7 @@ a:hover
 {
     position: relative;
     text-align: center;
+    top: 4vh;
     margin: 1vh;
 }
 /*--------------------BLUETOOTH SPEAKER-----------*/
@@ -265,7 +262,7 @@ a:hover
 {
     color: #707070;
     font-size: 3vh;
-    position: absolute;
+    position: relative;
     width: 100%;
     text-align: center;
     top:-0.5vh ;
@@ -313,7 +310,6 @@ a:hover
     cursor: pointer;
     height: 20px;
     width: 20px;
-    top: 20vh;
     margin-left: 1vw;
     background-color: #bbb;
     border-radius: 50%;
@@ -337,6 +333,7 @@ a:hover
 {
     position: relative;
     text-align: center;
+    top: 8vh;
     margin: 1vh;
 }
 
@@ -373,7 +370,7 @@ a:hover
 {
     color: #707070;
     font-size: 3vh;
-    position: absolute;
+    position: relative;
     width: 100%;
     text-align: center;
     top:-0.5vh ;
@@ -447,7 +444,6 @@ a:hover
     cursor: pointer;
     height: 20px;
     width: 20px;
-    top: 25vh;
     margin-left: 1vw;
     background-color: #bbb;
     border-radius: 50%;
@@ -471,6 +467,8 @@ a:hover
 {
     position: relative;
     text-align: center;
+    top: 8vh;
+    margin: 1vh;
 }
 /*--------------- DRUMVEL ---------------------------*/
 .slideshow-container2
@@ -485,7 +483,7 @@ a:hover
 {
     color: #707070;
     font-size: 3vh;
-    position: absolute;
+    position: relative;
     width: 100%;
     text-align: center;
     top:-0.5vh ;
@@ -533,7 +531,6 @@ a:hover
     cursor: pointer;
     height: 20px;
     width: 20px;
-    top: 15vh;
     margin-left: 1vw;
     background-color: #bbb;
     border-radius: 50%;
@@ -557,6 +554,7 @@ a:hover
 {
     position: relative;
     text-align: center;
+    top: 3vh;
     margin: 1vh;
 }
 
@@ -574,7 +572,7 @@ a:hover
 {
     color: #707070;
     font-size: 3vh;
-    position: absolute;
+    position: relative;
     width: 100%;
     text-align: center;
     top:-0.5vh ;
@@ -622,7 +620,6 @@ a:hover
     cursor: pointer;
     height: 20px;
     width: 20px;
-    top: 15vh;
     margin-left: 1vw;
     background-color: #bbb;
     border-radius: 50%;
@@ -646,6 +643,7 @@ a:hover
 {
     position: relative;
     text-align: center;
+    top: 2vh;
     margin: 1vh;
 }
 
