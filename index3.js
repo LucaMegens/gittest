@@ -13,20 +13,20 @@ arr.map(function(imageObj)
 arr[0].classList.add("show");
 
 //Zet de waardes voor de timing van de slideshow
-var currentSlide = 1;
-var slideLength = slide.children.length;
-var prevSlide = 0;
+var CurrentSlide = 1;
+var SlideLength = slide.children.length;
+var PrevSlide = 0;
 
 //interval function
 setInterval(function() 
 {
-  if (currentSlide >= slideLength)
-    currentSlide = 0;
+  if (CurrentSlide >= SlideLength)
+    CurrentSlide = 0;
 
-  arr[prevSlide].classList.remove("show");
-  arr[currentSlide].classList.add("show");
+  arr[PrevSlide].classList.remove("show");
+  arr[CurrentSlide].classList.add("show");
 
-  prevSlide = currentSlide;
-  currentSlide++;
+  PrevSlide = CurrentSlide;
+  CurrentSlide++;
 
-}, 5000)
+}, 3000)

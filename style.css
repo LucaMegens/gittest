@@ -48,7 +48,7 @@ a
  {
     color: #707070;
     text-decoration: none;
-    font-size: 1.6vh;
+    font-size: 1rem;
 }
 a:hover
 {
@@ -85,7 +85,7 @@ a:hover
     display: flex;
     flex: wrap;
     color: #BFC9CD;
-    font-size: 7vw;
+    font-size: 8rem;
     font-weight: lighter;
     justify-content: center;
     backdrop-filter: brightness(60%);
@@ -98,7 +98,7 @@ a:hover
     display: flex;
     flex: wrap;
     color: #BFC9CD;
-    font-size: 1.4vw;
+    font-size: 1.5rem;
     font-weight: lighter;
     justify-content: center;
 }
@@ -111,7 +111,7 @@ a:hover
     display: flex;
     flex: wrap;
     color: #BFC9CD;
-    font-size: 5vw;
+    font-size: 6rem;
     font-weight: lighter;
     justify-content: center;
     text-align: center;
@@ -136,7 +136,7 @@ a:hover
 
 .WieBenIk
 {
-    font-size: 2vh;
+    font-size: 1.5rem;
     font-weight: normal;
     color: #707070;
     display: flex;
@@ -153,7 +153,7 @@ a:hover
     color: #707070;
     padding-left: 14vw;
     margin-top: 1vw;
-    font-size: 1.5vh;
+    font-size: 1rem;
 }
 
 
@@ -172,7 +172,7 @@ a:hover
 .UIiteraties
 {
     color: #707070;
-    font-size: 3vh;
+    font-size: 2rem;
     position: relative;
     width: 100%;
     text-align: center;
@@ -244,7 +244,7 @@ a:hover
 {
     position: relative;
     text-align: center;
-    top: 4vh;
+    top: 21vh;
     margin: 1vh;
 }
 /*--------------------BLUETOOTH SPEAKER-----------*/
@@ -255,13 +255,13 @@ a:hover
     margin: auto;
     top: 81vh;
     background-color: rgba(0, 0, 0, 0.055);
-    height: 80vh;
+    height: 90vh;
     margin-bottom: 10vh;
 }
 .UIiteraties1
 {
     color: #707070;
-    font-size: 3vh;
+    font-size: 2rem;
     position: relative;
     width: 100%;
     text-align: center;
@@ -333,7 +333,7 @@ a:hover
 {
     position: relative;
     text-align: center;
-    top: 8vh;
+    top: 21.7vh;
     margin: 1vh;
 }
 
@@ -364,7 +364,7 @@ a:hover
     margin: auto;
     top: 81vh;
     background-color: rgba(0, 0, 0, 0.055);
-    height: 84vh;
+    height: 90vh;
 }
 .T-shirt
 {
@@ -416,11 +416,11 @@ a:hover
 .text
 {
     color: #707070;
-    font-size: 1.5vh;
+    font-size: 1rem;
     position: absolute;
     width: 100%;
     text-align: left;
-    top: 60vh;
+    top: 62vh;
     background-color: #D8E9EF;
     padding: 2vh;
     max-width: 50vw;
@@ -467,7 +467,7 @@ a:hover
 {
     position: relative;
     text-align: center;
-    top: 8vh;
+    top: 22vh;
     margin: 1vh;
 }
 /*--------------- DRUMVEL ---------------------------*/
@@ -476,7 +476,7 @@ a:hover
     position: relative;
     top: 30vh;
     background-color: rgba(0, 0, 0, 0.055);
-    height: 74.2vh;
+    height: 80vh;
     margin-bottom: -50vh;
 }
 .Drumvel
@@ -554,7 +554,7 @@ a:hover
 {
     position: relative;
     text-align: center;
-    top: 3vh;
+    top: 11.8vh;
     margin: 1vh;
 }
 
@@ -564,7 +564,7 @@ a:hover
     position: relative;
     top: 90vh;
     background-color: rgba(0, 0, 0, 0.055);
-    height: 74.2vh;
+    height: 77.2vh;
     margin-bottom: 20vh;
 }
 
@@ -616,7 +616,6 @@ a:hover
 /* the dots/circles */
 .dot3
 {
-    position: relative;
     cursor: pointer;
     height: 20px;
     width: 20px;
@@ -643,7 +642,7 @@ a:hover
 {
     position: relative;
     text-align: center;
-    top: 2vh;
+    top: 9.3vh;
     margin: 1vh;
 }
 
@@ -660,7 +659,7 @@ a:hover
     flex: wrap;
     color: #707070;
     background-color: #D8E9EF;
-    font-size: 2vw;
+    font-size: 2.3rem;
     font-weight: lighter;
     justify-content: left;
     left: 33%;
@@ -690,7 +689,7 @@ a:hover
 .CUT 
 {
     position: relative;
-    font-size: 2vh;
+    font-size: 1.5rem;
     font-weight: normal;
     color: #707070;
     display: flex;
@@ -708,7 +707,7 @@ a:hover
     position: relative;
     margin-left: 15vw;
     margin-top: 0.5vw;
-    font-size: 1.5vh;
+    font-size: 1rem;
 }
 
 /*-----------------------------------------PROFESSIONAL IDENTITY--------------------------*/
@@ -729,7 +728,7 @@ a:hover
 .PIT 
 {
     position: relative;
-    font-size: 2vh;
+    font-size: 1.5rem;
     font-weight: normal;
     color: #707070;
     display: flex;
@@ -747,5 +746,5 @@ a:hover
     position: relative;
     margin-top: 0.5vw;
     padding-left: 2%;
-    font-size: 1.5vh;
+    font-size: 1rem;
 }
