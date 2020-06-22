@@ -5,8 +5,7 @@ var time1 = 5000;
 //image list
 images1[0] = 'POC/POC2/image1.png';
 images1[1] = 'POC/POC2/image2.png';
-images1[2] = 'POC/POC2/image3.png';
-images1[3] = 'POC/POC2/image4.jpg';
+images1[2] = 'POC/POC2/image3.jpg';
 
 //change image
 
