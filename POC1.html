@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio Luca Megens S2</title>
     <link rel="stylesheet" href="POCStyle.css">
 </head>
 <body>
@@ -17,6 +17,7 @@
                 <li class="AA"><a href="#POC4">PoC4: Interactieve slideshow</a></li> 
                 <li class="AA"><a href="#POC5">PoC5: Meerdere interactieve slideshows</a></li>
                 <li class="AA"><a href="#POC6">PoC6: Loader</a></li>
+                <li class="AA"><a href="#POC7">PoC7: Page loader</a></li>
             </ul>
         </nav>
     </header>
@@ -25,7 +26,7 @@
     <div class="titels" id="POC1">PoC1: Knopje</div>
 
         <div class="POC1">
-         <button type="button" onclick="myFunction()">Show Picture </button>
+         <button type="button" onclick="myFunction1()">Show Picture </button>
           <img class="Plaatjes" id="Plaatjes" src="POC/POC1/POC1IMG.png" width="40%" alt="">
     
          <style>
@@ -69,7 +70,9 @@
 
     <div class="WHIG PoC3">
         <p class="p1">Wat heb ik geleerd?</p>
-        <p class="p2">Ik heb geleerd om variabele aan te maken, hoe je een lege array maakt en hoe je een if else statement kan gebruiken in JavaScript.</p>
+        <p class="p2">Ik heb geleerd om variabele aan te maken, hoe je een lege array maakt en hoe je een if else statement kan gebruiken in JavaScript.
+            <br>(Helaas is deze POC kapot gegaan tijdens het toevoegen van POC7.) 
+        </p>
     </div>
 
     <div class="WHIG PoC3">
@@ -206,9 +209,33 @@
        </div>
     
     <div class="WHIG PoC3">
-        <a class="p1" href="https://github.com/LucaMegens/PoC1-knopje" target="_blank">Klik hier voor GitHub</a>
+        <a class="p1" href="https://github.com/LucaMegens/PoC6-Loader" target="_blank">Klik hier voor GitHub</a>
     </div>
 
+    <div class="titels" id="POC7">PoC7: Page loader</div>
+    
+    <body onload="myFunction()" style="margin:0;" >
+
+        <div id="loader"></div>
+          
+          <div style="display:none;" id="myDiv" class="animate-bottom">
+            <h2 class="WHIG PoC3 p2">Tada!</h2>
+            <p class="WHIG PoC3 p2">Some text in my newly loaded page..</p>
+          </div>
+          
+          <div class="WHIG PoC3">
+            <p class="p1">Wat heb ik geleerd?</p>
+            <p class="p2">Ik heb geleerd hoe je een hele webpagina kan beÏnvloeden met JavaScript, zodat je een loader kan maken.
+                Hierdoor heeft de webpagina tijd om te laden en heeft de gebruiker niet het gevoel dat de webpagina traag is. (Herlaad de pagina als er Tada! Staat.)
+            </p>
+          </div>
+
+          <div class="WHIG PoC3">
+            <a class="p1" href="https://github.com/LucaMegens/POC7-Page-loader" target="_blank">Klik hier voor GitHub</a>
+        </div>
+          
+          <script src="index5.js"></script>
+  </body>
 
 
 </body>

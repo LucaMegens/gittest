@@ -17,6 +17,56 @@ html
     scroll-behavior: smooth;
 }
 
+#loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    margin: -75px 0 0 -75px;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  /* Add animation to "page content" */
+  .animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+  }
+  
+  @-webkit-keyframes animatebottom {
+    from { bottom:-100px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+  }
+  
+  @keyframes animatebottom { 
+    from{ bottom:-100px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
+  }
+  
+  #myDiv {
+    display: none;
+    text-align: left;
+  }
 /*------------- HEADER -------------*/
 .navigation
 {
@@ -69,7 +119,7 @@ a:hover
     transition: ease-in-out  2s;
     object-fit: cover;
     width: 100%;
-    height: 100%;
+    height: 22%;
 }
 
 .show 
@@ -716,13 +766,15 @@ a:hover
 {
     position: relative;
     top: 80vh;
+    background-image: url(Fotos-Prof.id/Prof.Id.png);
+    background-size: 20%;
     background-color: #D8E9EF;
+    background-repeat: no-repeat;
+    padding-left: 7%;
     padding-bottom: 5%;
     padding-right: 1%;
-    width: 70%;
-    justify-content: center;
-    left: 15%;
-    margin-bottom: 12%;
+    margin-right: 10%;
+    width: 70vw;
 }
 
 .PIT 
@@ -734,8 +786,8 @@ a:hover
     display: flex;
     flex: wrap;
     justify-content: left;
+    margin-left: 15vw;
     padding-top: 2vh;
-    padding-left: 2%;
     margin-top: 5vh;
 }
 
@@ -744,7 +796,7 @@ a:hover
     font-weight: normal;
     color: #707070;
     position: relative;
+    margin-left: 15vw;
     margin-top: 0.5vw;
-    padding-left: 2%;
     font-size: 1rem;
 }

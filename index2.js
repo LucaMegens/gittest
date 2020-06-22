@@ -1,19 +1,19 @@
 var i = 0;
-var images = [];
-var time = 5000;
+var images1 = [];
+var time1 = 5000;
 
 //image list
-images[0] = 'POC/POC2/image1.png';
-images[1] = 'POC/POC2/image2.png';
-images[2] = 'POC/POC2/image3.png';
-images[3] = 'POC/POC2/image4.jpg';
+images1[0] = 'POC/POC2/image1.png';
+images1[1] = 'POC/POC2/image2.png';
+images1[2] = 'POC/POC2/image3.png';
+images1[3] = 'POC/POC2/image4.jpg';
 
 //change image
 
-function changeImg(){
-    document.slide.src = images[i];
+function changeImg1(){
+    document.slide.src = images1[i];
 
-    if (i < images.length - 1) 
+    if (i < images1.length - 1) 
     {
         i++;  
     } 
@@ -22,8 +22,8 @@ function changeImg(){
     {
         i = 0;
     }
-setTimeout("changeImg()" , time);
+setTimeout1("changeImg1()" , time1);
 
 }
 
-window.onload = changeImg;
+window.onload = changeImg1;
