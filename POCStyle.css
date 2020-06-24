@@ -45,10 +45,10 @@ html
 
 
 a
- {
+{
     color: #707070;
     text-decoration: none;
-    font-size: 1.6vh;
+    font-size: 1rem;
 }
 a:hover
 {
@@ -61,8 +61,8 @@ a:hover
     display: flex;
     top: 10vh;
     flex: wrap;
-    color: #BFC9CD;
-    font-size: 5vw;
+    color: #99b1bb;
+    font-size: 5.3rem;
     font-weight: lighter;
     justify-content: center;
     text-align: center;
@@ -90,7 +90,7 @@ a:hover
 
 .p1
 {
-    font-size: 2.5vh; 
+    font-size: 1.5em; 
 }
 
 #Slideshow img 

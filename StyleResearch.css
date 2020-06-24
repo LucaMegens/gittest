@@ -8,7 +8,7 @@ body
 {
     background: white;
     color: rgb(0, 0, 0);
-    font-family: 'Segoe UI', 'monument_valley_1.2regular';
+    font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif; 
     overflow-x: hidden;
 }
 
@@ -48,10 +48,10 @@ li
 }
 
 a
- {
+{
     color: #707070;
     text-decoration: none;
-    font-size: 1.6vh;
+    font-size: 1rem;
 }
 a:hover
 {
@@ -63,12 +63,12 @@ a:hover
     position: relative;
     display: flex;
     flex: wrap;
-    color: #BFC9CD;
-    font-size: 5vw;
+    color: #99b1bb;
+    font-size: 5.3rem;
     font-weight: lighter;
     justify-content: center;
-    margin-top: 6vh;
-    padding-top: 5vh;
+    text-align: center;
+    padding-top: 4%;
     
 }
 .lowerTitels
@@ -76,8 +76,8 @@ a:hover
     position: relative;
     display: flex;
     flex: wrap;
-    color: #BFC9CD;
-    font-size: 2vw;
+    color: #99b1bb;
+    font-size: 2.3em;
     font-weight: lighter;
     justify-content: center;
 }

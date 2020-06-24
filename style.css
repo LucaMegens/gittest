@@ -95,7 +95,7 @@ html
 
 
 a
- {
+{
     color: #707070;
     text-decoration: none;
     font-size: 1rem;
@@ -160,7 +160,7 @@ a:hover
     top: 80vh;
     display: flex;
     flex: wrap;
-    color: #BFC9CD;
+    color: #99b1bb;
     font-size: 6rem;
     font-weight: lighter;
     justify-content: center;
@@ -416,6 +416,7 @@ a:hover
     background-color: rgba(0, 0, 0, 0.055);
     height: 90vh;
 }
+
 .T-shirt
 {
     color: #707070;
@@ -798,6 +799,44 @@ a:hover
     color: #707070;
     position: relative;
     margin-left: 15vw;
+    margin-top: 0.5vw;
+    font-size: 1rem;
+}
+
+
+/*-----------------REFLECTIE-----------------*/
+.Reflectie
+{
+    position: relative;
+    top: 80vh;
+    background-color: #D8E9EF;
+    background-repeat: no-repeat;
+    left: 25%;
+    padding-left: 1%;
+    padding-bottom: 2%;
+    padding-right: 1%;
+    margin-bottom: 5%;
+    width: 51%;
+}
+
+.RET
+{
+    position: relative;
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: #707070;
+    display: flex;
+    flex: wrap;
+    justify-content: left;
+    padding-top: 2vh;
+    margin-top: 5vh;
+}
+
+.REP1
+{
+    font-weight: normal;
+    color: #707070;
+    position: relative;
     margin-top: 0.5vw;
     font-size: 1rem;
 }
