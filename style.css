@@ -119,7 +119,7 @@ a:hover
     transition: ease-in-out  2s;
     object-fit: cover;
     width: 100%;
-    height: 22%;
+    height: 20%;
 }
 
 .show 
@@ -174,7 +174,7 @@ a:hover
     top: 80vh;
     background-color: #D8E9EF;
     background-image: url(Fotos-MyStory/LucaSurf.jpg);
-    background-size: 24.5%;
+    background-size: 25%;
     background-repeat: no-repeat;
     padding-left: 7%;
     padding-bottom: 11%;
@@ -216,8 +216,9 @@ a:hover
     margin: auto;
     top: 81vh;
     background-color: rgba(0, 0, 0, 0.055);
-    height: 80vh;
+    height: 90vh;
     margin-bottom: 10vh;
+    padding-bottom: 10vh;
 }
 .UIiteraties
 {
@@ -294,7 +295,7 @@ a:hover
 {
     position: relative;
     text-align: center;
-    top: 21vh;
+    top: 31vh;
     margin: 1vh;
 }
 /*--------------------BLUETOOTH SPEAKER-----------*/
@@ -305,7 +306,7 @@ a:hover
     margin: auto;
     top: 81vh;
     background-color: rgba(0, 0, 0, 0.055);
-    height: 90vh;
+    height: 105vh;
     margin-bottom: 10vh;
 }
 .UIiteraties1
@@ -383,7 +384,7 @@ a:hover
 {
     position: relative;
     text-align: center;
-    top: 21.7vh;
+    top: 36.5vh;
     margin: 1vh;
 }
 
@@ -414,7 +415,7 @@ a:hover
     margin: auto;
     top: 81vh;
     background-color: rgba(0, 0, 0, 0.055);
-    height: 90vh;
+    height: 93vh;
 }
 
 .T-shirt
@@ -518,7 +519,7 @@ a:hover
 {
     position: relative;
     text-align: center;
-    top: 22vh;
+    top: 24.8vh;
     margin: 1vh;
 }
 /*--------------- DRUMVEL ---------------------------*/
@@ -527,7 +528,7 @@ a:hover
     position: relative;
     top: 30vh;
     background-color: rgba(0, 0, 0, 0.055);
-    height: 80vh;
+    height: 91vh;
     margin-bottom: -50vh;
 }
 .Drumvel
@@ -605,7 +606,7 @@ a:hover
 {
     position: relative;
     text-align: center;
-    top: 11.8vh;
+    top: 22.6vh;
     margin: 1vh;
 }
 
@@ -615,7 +616,7 @@ a:hover
     position: relative;
     top: 90vh;
     background-color: rgba(0, 0, 0, 0.055);
-    height: 77.2vh;
+    height: 82vh;
     margin-bottom: 20vh;
 }
 
@@ -693,7 +694,7 @@ a:hover
 {
     position: relative;
     text-align: center;
-    top: 9.3vh;
+    top: 13vh;
     margin: 1vh;
 }
 
@@ -727,7 +728,8 @@ a:hover
     position: relative;
     top: 80vh;
     background-image: url(Fotos-Communication/Communication\ graphic\ 1.png);
-    background-size: 20%;
+    background-position: unset;
+    background-size: 25%;
     background-color: #D8E9EF;
     background-repeat: no-repeat;
     padding-left: 7%;
@@ -768,7 +770,8 @@ a:hover
     position: relative;
     top: 80vh;
     background-image: url(Fotos-Prof.id/Prof.Id.png);
-    background-size: 20%;
+    background-position: unset;
+    background-size: 26%;
     background-color: #D8E9EF;
     background-repeat: no-repeat;
     padding-left: 7%;
