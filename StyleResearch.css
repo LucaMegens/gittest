@@ -90,3 +90,38 @@ a:hover
     width: 90vh;
     border: none;
 }
+
+.Reflectie
+{
+    position: relative;
+    background-color: #D8E9EF;
+    background-repeat: no-repeat;
+    left: 25%;
+    padding-left: 1%;
+    padding-bottom: 2%;
+    padding-right: 1%;
+    margin-bottom: 5%;
+    width: 51%;
+}
+
+.RET
+{
+    position: relative;
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: #707070;
+    display: flex;
+    flex: wrap;
+    justify-content: left;
+    padding-top: 2vh;
+    margin-top: 5vh;
+}
+
+.REP1
+{
+    font-weight: normal;
+    color: #707070;
+    position: relative;
+    margin-top: 0.5vw;
+    font-size: 1rem;
+}
